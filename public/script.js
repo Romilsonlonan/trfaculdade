@@ -38,7 +38,7 @@ function ValidateField(field) {
         spanError.innerHTML = "Campo Obrigatório"
         } else {
         spanError = classList.remove("active")
-        spanError.innerHTML = "Cadastro com Sucesso!!!"            
+        spanError.innerHTML = ""            
         }        
     }
 
